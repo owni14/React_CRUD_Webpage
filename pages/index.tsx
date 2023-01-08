@@ -1,12 +1,8 @@
 import styled from 'styled-components';
 import { theme } from '../styles/theme';
 
-const Test = styled.div`
-  color: ${theme.colors.black};
-`;
-
-const Main = () => {
-  return <Test>main page</Test>;
+const MainPage = () => {
+  return <>Main Page</>;
 };
 
-export default Main;
+export default MainPage;

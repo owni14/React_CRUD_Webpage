@@ -6,11 +6,11 @@ import Layout from '../components/layout/Layout';
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <Layout>
-      <ThemeProvider theme={theme}>
-        <GlobalStyle />
+    <ThemeProvider theme={theme}>
+      <GlobalStyle />
+      <Layout>
         <Component {...pageProps} />
-      </ThemeProvider>
-    </Layout>
+      </Layout>
+    </ThemeProvider>
   );
 }

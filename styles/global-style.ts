@@ -6,7 +6,7 @@ export const GlobalStyle = createGlobalStyle`
     html {
         box-sizing: border-box;
         font-size: 20px;
-        min-width: 320px;
+        width: 375px;
     }
 
     a {cursor: pointer; text-decoration: none; color: inherit}

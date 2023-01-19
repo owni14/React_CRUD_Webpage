@@ -1,8 +1,11 @@
-import { DefaultTheme } from 'styled-components';
+import { GlobalColor } from 'styled-components';
 
-export const theme: DefaultTheme = {
-  colors: {
-    black: '#1e1f1d',
-    white: '#ffffff',
-  },
+const colors: GlobalColor = {
+  mainColor: '#2965FF',
+  black: '#000',
+  white: '#fff',
+};
+
+export const theme = {
+  colors,
 };
